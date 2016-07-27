@@ -50,5 +50,5 @@ sensors: {
   #arduino_led:          {pin: 13, type: Digital, rate: 5, direction: output}
 }
 joints: {
-   acc_joint: {pin: 5, init_position: 0, init_speed: 90, neutral: 0, min_angle: 0, max_angle: 180, invert: False, continous: False}
+   acc_joint: {pin: 6, init_position: 0, init_speed: 90, neutral: 90, min_angle: -90, max_angle: 90, invert: False, continous: False}
 }
